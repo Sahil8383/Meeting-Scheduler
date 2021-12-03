@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body class="loginbody">
+    <div class="container">
+        <div class="left">
+            <div class="form">
+                <div class="signin">
+                     Sign In
+                </div>
+                <form class="input1" method="get" action="/scedule.html"  name="form"  >
+                    <input required class="tags" autocomplete="off"  type="text" placeholder="Name" name="name" >
+                    <div id="error_name" >Wrong Name</div>
+                    
+                    <input required class="tags" autocomplete="off"  type="email" placeholder="Email" name="email" >
+                    <div id="error_email" >Wrong Email</div>
+                  
+                    <input  required class="tags" autocomplete="off"  type="text" placeholder="Password" name="pass">
+                    <div id="error_pass" >Wrong Password</div>
+                   
+                    <button type="submit" class="login" ><a class="href"   >Login</a></button>
+                </form>
+                
+            </div>
+            <div class="house"><img src="/Img/finallogo.png" ></div>
+        </div>
+        <div class="right"><img class="loginimg" src="/Img/login.png" ></div>
+        <div class="quote"><img class="text" src="/Img/“Let us help you to make your day easy”.png" ></div>
+    </div>
+    <script src="JS/validation.js" ></script>
+</body>
+</html>
